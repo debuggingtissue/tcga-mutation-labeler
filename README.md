@@ -19,7 +19,7 @@ Tool for labeling .SVS files from TCGA cases into true/false-directories based o
     
     Here is an example of a run
     
-    `./run_labeler.sh /home/user/debuggingtissue/tcga_cases /home/user/debuggingtissue/TCGA-PRAD.mutect2_snv.tsv SPOP /home/user/debuggingtissue/output_of_labelling -move`
+    `./run_labeler.sh /home/user/debuggingtissue/tcga_cases /home/user/debuggingtissue/TCGA-PRAD.mutect2_snv.tsv SPOP /home/user/debuggingtissue/output_of_labeling -move`
 
   
 ### Description of input parameters
