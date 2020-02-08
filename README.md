@@ -7,19 +7,19 @@ Tool for labeling .SVS files from TCGA cases into true/false-directories based o
 
 1. Navigate to the `src` directory by using the terminal
 
-    `cd my/path/to/tcga-mutation-labeler/src`
+        cd my/path/to/tcga-mutation-labeler/src
 
 1. Give execute permission to the script
 
-    `chmod +x ./run_labeler.sh`
+        chmod +x ./run_labeler.sh
     
 1. Run the script
 
-    `./run_labeler.sh FULL_PATH_TO_TCGA_DOWNLOADS_FOLDER FULL_PATH_TO_MUTATION_FILE MUTATION_OF_INTEREST OUTPUT_DIRECTORY_PATH DESIRED_DISK_OPERATION`
+        ./run_labeler.sh FULL_PATH_TO_TCGA_DOWNLOADS_FOLDER FULL_PATH_TO_MUTATION_FILE MUTATION_OF_INTEREST OUTPUT_DIRECTORY_PATH DESIRED_DISK_OPERATION
     
     Here is an example of a run
     
-    `./run_labeler.sh /home/user/debuggingtissue/tcga_cases /home/user/debuggingtissue/TCGA-PRAD.mutect2_snv.tsv SPOP /home/user/debuggingtissue/output_of_labeling -move`
+        ./run_labeler.sh /home/user/debuggingtissue/tcga_cases /home/user/debuggingtissue/TCGA-PRAD.mutect2_snv.tsv SPOP /home/user/debuggingtissue/output_of_labeling -move
 
   
 ### Description of input parameters
